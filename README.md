@@ -4,7 +4,7 @@ This project covers the full hardware/software co-design cycle for a custom grap
 
 This project demonstrates end-to-end capabilities, from digital logic design in Verilog to firmware development in C.
 
-![Whole system output](Whole system output.png)
+![Whole system output](Whole%20system%20output.PNG)
 
 ### Key Features
 
