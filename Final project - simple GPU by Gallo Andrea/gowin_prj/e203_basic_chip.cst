@@ -1,0 +1,33 @@
+//Porting to GW2A18, Sipeed Tang Primer 20K
+
+IO_LOC "clk_in"         H11;
+IO_LOC "erstn"          C7;     //Key_5 on Tang Primer 20K dock
+
+IO_PORT "clk_in"        IO_TYPE=LVCMOS33;
+IO_PORT "erstn"         IO_TYPE=LVCMOS33;
+
+
+IO_LOC "gpio_in[16]"    T13;    //from BL702_UART1_TX
+IO_LOC "gpio_out[17]"   M11;    //to BL702_UART1_RX
+
+IO_PORT "gpio_in[16]"   IO_TYPE=LVCMOS33;
+IO_PORT "gpio_out[17]"  IO_TYPE=LVCMOS33;
+
+
+IO_LOC "tdo"            C6;
+IO_LOC "tms"            B8;
+IO_LOC "tck"            A7;
+IO_LOC "tdi"            A6;
+
+IO_PORT "tdo"           IO_TYPE=LVCMOS33;
+IO_PORT "tms"           IO_TYPE=LVCMOS33;
+IO_PORT "tck"           IO_TYPE=LVCMOS33;
+IO_PORT "tdi"           IO_TYPE=LVCMOS33;
+
+IO_PORT "tms"           PULL_MODE=UP;
+IO_PORT "tck"           PULL_MODE=UP;
+IO_PORT "tdi"           PULL_MODE=UP;
+
+
+
+

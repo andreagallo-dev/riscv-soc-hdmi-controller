@@ -1,0 +1,24 @@
+-series GW2A
+-device GW2A-18
+-device_version C
+-package PBGA256
+-part_number GW2A-LV18PG256C8/I7
+
+
+-mod_name Gowin_DPB
+-file_name gowin_dpb
+-path G:/Documenti/Ing. Automazione/2 Anno/Secondo Semestre/Chip intelligence/Final project/HDMI - Final project 2359271/rtl/ip/Modules/gowin_dpb/
+-type RAM_DP
+-file_type vlg
+-bram_b true
+-dev_type GW2A-18C
+-depth_0 19200
+-depth_1 19200
+-width_0 16
+-width_1 16
+-read_mode_0 bypass
+-read_mode_1 bypass
+-write_mode_0 normal
+-write_mode_1 normal
+-speed false
+-reset_mode sync

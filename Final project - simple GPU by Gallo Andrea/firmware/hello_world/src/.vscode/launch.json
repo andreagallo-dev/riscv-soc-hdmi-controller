@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "g:/Documenti/Ing. Automazione/2 Anno/Secondo Semestre/Chip intelligence/Final project/HDMI - Final project 2359271 & 2359272/firmware/hello_world/src",
+      "program": "g:/Documenti/Ing. Automazione/2 Anno/Secondo Semestre/Chip intelligence/Final project/HDMI - Final project 2359271 & 2359272/firmware/hello_world/src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
